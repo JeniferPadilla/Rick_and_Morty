@@ -1,0 +1,51 @@
+/* siempre en todas las paginas se va empezar en 0 y el * es para que todas sean asi*/
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color: #0c0c0c;
+}
+
+.header{
+    width: 100%;  /* es el ancho de lo que tenga la clase */
+/* z-index:1; */
+}
+
+.headerStyle{
+    color: #101213;
+    width: auto;
+    height:170px;
+}
+
+h1{
+    display: block;
+  padding-top: 40px;
+  text-decoration: none;
+  font-size:70px;
+  font-weight: 900;
+  font-family: 'Times New Roman';
+ 
+}
+.characters{
+     margin-top: 60px; /*el espacio de arriba */
+    margin-bottom: 60px; /* abajo */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: flex-end;
+}
+.imagen{
+    height: 200px;
+    width: 200px;
+  
+
+}
+.carta{
+    height: 500px;
+    width: 600px;
+    
+}
+
